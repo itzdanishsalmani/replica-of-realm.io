@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+#bg_img {
+    position: relative;
+    width: 100%; 
+    height: 560px;   
+}
+
+#realm_logo {
+    position: absolute;
+    top: 55px; 
+    left: 170px;
+    height: 45px;
+}
+
+.nav {  
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    justify-content: space-between;
+    width: 50%;
+    color: white;
+    font-size: medium;
+    position: absolute;
+    top: 60px;
+    left: 50%; /* Adjusted left value */
+    transform: translateX(-50%); /* Center the .nav horizontally */
+}
+
+.buttonOfDeploy1 {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    position: absolute;
+    font-size: 16px;
+    top: 55px;
+    cursor:pointer;
+    margin: 0px 12px;
+    font-weight: 550;
+    padding: 12px;
+    right: 75px;
+    height: 45px;
+    border-radius: 8px;
+    border-color:  rgb(110, 96, 249);
+    color: white;
+    background-color:rgb(110, 96, 249);
+}
+
+.buttonOfDeploy1:hover,
+ .buttonOfDeploy2:hover {
+    background-color: white;
+    color:  rgb(110, 96, 249);
+}
+
+.middleText {
+    margin: 10px auto;
+    position: absolute;
+    top: 180px;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.below {
+    text-align: center;
+    position: absolute;
+    margin: 10px auto;
+    top: 290px;
+    font-size: 20px;
+    left: 50%;
+    transform:translateX(-50%);
+    color:rgb(159, 161, 162) ;
+}
+
+.buttonOfDeploy2 {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    position: absolute;
+    font-size: 16px;
+    top: 380px;
+    cursor:pointer;
+    margin: 0px 12px;
+    padding: 12px;
+    right: 700px;
+    font-weight: 550;
+    height: 60px;
+    border-radius: 8px;
+    border-color:  rgb(110, 96, 249);
+    color: white;
+    background-color:rgb(110, 96, 249);
+}
+
+.viewDocumentation {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    position: absolute;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+    top: 380px;
+    cursor:pointer;
+    margin: 0px 12px;
+    padding: 12px;
+    right: 470px;
+    height: 60px;
+    
+}
+
+.whyUse {
+    font-weight: 700;
+    color: rgb(33, 49, 60);
+    font-size: 50px;
+    margin-top: 5%;
+    margin-left: 75px;     
+}
+
+.belowWhy {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.column {
+    flex:1;
+}
+.items {
+    margin: 25px;
+    
+}
+
