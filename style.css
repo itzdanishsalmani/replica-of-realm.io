@@ -119,21 +119,109 @@
     font-weight: 700;
     color: rgb(33, 49, 60);
     font-size: 50px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 75px;     
 }
-
-.belowWhy {
+.belowWhyUse {
+    margin-top: 3%;
     display: flex;
-    flex-direction: column;
-    
+    justify-content: center;
 }
 
-.column {
-    flex:1;
-}
 .items {
-    margin: 25px;
-    
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(93, 108, 116);
+    margin: 10px; /* Add margin for spacing between items */
 }
 
+.items p {
+    color: rgb(33, 49, 60);
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 570;
+}
+.bgClass1 {    
+    position: relative;
+    margin-top: 100px;
+    height: 1000px;
+    background-color: rgb(240, 244, 248);
+    display: flex;
+}
+
+.ss1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.ss2 {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 50%;
+}
+
+.launch1,
+.launch2 {
+    position: absolute;
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.below1,
+.below2 {
+    position: absolute;
+    color: rgb(93, 108, 116);
+    padding-left:70px;
+    padding-right: 58%;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+.launch1 {
+    margin-top: 200px;
+}
+.launch2 {
+    margin-top: 580px;
+}   
+
+.below1 {
+    margin-top: 250px;
+}
+
+.below2 {
+    margin-top: 620px;
+}
+
+.appsBuilt {
+    margin-top: 50px;
+    display: flex;
+}
+
+.appsBuiltWithRealm {
+    font-size: 35px;
+    font-weight: 550;
+    padding-left:70px;
+}
+.forkAndStar {
+    justify-content: space-between;
+    margin-left:55%;
+    margin-top: 20px;
+    color: blue;
+}
+
+.appsBelow {
+    color:rgb(93, 108, 116);
+    padding-left:70px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.view {
+    font-size: 20px;
+    font-weight: 560;
+    color: rgb(110, 96, 249);
+    padding-left:70px;
+    margin-top:35px;
+}
