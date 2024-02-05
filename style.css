@@ -10,18 +10,18 @@
 
 #bg_img {
     position: relative;
-    width: 100%; 
-    height: 560px;   
+    width: 100%;
+    height: 560px;
 }
 
 #realm_logo {
     position: absolute;
-    top: 55px; 
+    top: 55px;
     left: 170px;
     height: 45px;
 }
 
-.nav {  
+.nav {
     display: flex;
     padding-left: 110px;
     padding-right: 110px;
@@ -31,32 +31,35 @@
     font-size: medium;
     position: absolute;
     top: 60px;
-    left: 50%; /* Adjusted left value */
-    transform: translateX(-50%); /* Center the .nav horizontally */
+    left: 50%;
+    /* Adjusted left value */
+    transform: translateX(-50%);
+    /* Center the .nav horizontally */
 }
 
 .buttonOfDeploy1 {
     display: flex;
-    align-items: center; /* Align vertically centered */
+    align-items: center;
+    /* Align vertically centered */
     position: absolute;
     font-size: 16px;
     top: 55px;
-    cursor:pointer;
+    cursor: pointer;
     margin: 0px 12px;
     font-weight: 550;
     padding: 12px;
     right: 75px;
     height: 45px;
     border-radius: 8px;
-    border-color:  rgb(110, 96, 249);
+    border-color: rgb(110, 96, 249);
     color: white;
-    background-color:rgb(110, 96, 249);
+    background-color: rgb(110, 96, 249);
 }
 
 .buttonOfDeploy1:hover,
- .buttonOfDeploy2:hover {
+.buttonOfDeploy2:hover {
     background-color: white;
-    color:  rgb(110, 96, 249);
+    color: rgb(110, 96, 249);
 }
 
 .middleText {
@@ -77,42 +80,44 @@
     top: 290px;
     font-size: 20px;
     left: 50%;
-    transform:translateX(-50%);
-    color:rgb(159, 161, 162) ;
+    transform: translateX(-50%);
+    color: rgb(159, 161, 162);
 }
 
 .buttonOfDeploy2 {
     display: flex;
-    align-items: center; /* Align vertically centered */
+    align-items: center;
+    /* Align vertically centered */
     position: absolute;
     font-size: 16px;
     top: 380px;
-    cursor:pointer;
+    cursor: pointer;
     margin: 0px 12px;
     padding: 12px;
     right: 700px;
     font-weight: 550;
     height: 60px;
     border-radius: 8px;
-    border-color:  rgb(110, 96, 249);
+    border-color: rgb(110, 96, 249);
     color: white;
-    background-color:rgb(110, 96, 249);
+    background-color: rgb(110, 96, 249);
 }
 
 .viewDocumentation {
     display: flex;
-    align-items: center; /* Align vertically centered */
+    align-items: center;
+    /* Align vertically centered */
     position: absolute;
     font-size: 18px;
     font-weight: 550;
     color: white;
     top: 380px;
-    cursor:pointer;
+    cursor: pointer;
     margin: 0px 12px;
     padding: 12px;
     right: 470px;
     height: 60px;
-    
+
 }
 
 .whyUse {
@@ -120,8 +125,9 @@
     color: rgb(33, 49, 60);
     font-size: 50px;
     margin-top: 6%;
-    margin-left: 75px;     
+    margin-left: 75px;
 }
+
 .belowWhyUse {
     margin-top: 3%;
     display: flex;
@@ -134,7 +140,8 @@
     font-size: 18px;
     font-weight: 550;
     color: rgb(93, 108, 116);
-    margin: 10px; /* Add margin for spacing between items */
+    margin: 10px;
+    /* Add margin for spacing between items */
 }
 
 .items p {
@@ -143,7 +150,8 @@
     font-size: 20px;
     font-weight: 570;
 }
-.bgClass1 {    
+
+.bgClass1 {
     position: relative;
     margin-top: 100px;
     height: 1000px;
@@ -156,6 +164,7 @@
     margin-top: 50px;
     margin-left: 50%;
 }
+
 .ss2 {
     position: absolute;
     margin-top: 450px;
@@ -169,11 +178,12 @@
     font-size: 30px;
     font-weight: 600;
 }
+
 .below1,
 .below2 {
     position: absolute;
     color: rgb(93, 108, 116);
-    padding-left:70px;
+    padding-left: 70px;
     padding-right: 58%;
     font-size: 20px;
     font-weight: 520;
@@ -182,9 +192,10 @@
 .launch1 {
     margin-top: 200px;
 }
+
 .launch2 {
     margin-top: 580px;
-}   
+}
 
 .below1 {
     margin-top: 250px;
@@ -202,26 +213,205 @@
 .appsBuiltWithRealm {
     font-size: 35px;
     font-weight: 550;
-    padding-left:70px;
+    padding-left: 70px;
 }
+
 .forkAndStar {
+    cursor: pointer;
     justify-content: space-between;
-    margin-left:55%;
+    margin-left: 55%;
     margin-top: 20px;
     color: blue;
 }
 
 .appsBelow {
-    color:rgb(93, 108, 116);
-    padding-left:70px;
+    color: rgb(93, 108, 116);
+    padding-left: 70px;
     font-size: 20px;
     margin-top: 35px;
 }
 
-.view {
+.view,
+.fullCalendar {
+    cursor: pointer;
     font-size: 20px;
     font-weight: 560;
     color: rgb(110, 96, 249);
-    padding-left:70px;
-    margin-top:35px;
+    padding-left: 70px;
+}
+.view {
+    margin-top: 35px;
+}
+
+.line1,
+.line2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(240, 244, 248);
+}
+
+.bgClass2 {
+    position: relative;
+    margin-top: 100px;
+    height: 700px;
+    background-color: rgb(240, 244, 248);
+    display: flex;
+}
+
+.upcoming,
+.gettingStarted,
+.recent {
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.upcoming {
+    margin-top: 150px;
+    position: absolute;
+} 
+
+.events img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50%;    
+    border-radius: 25px;
+}
+
+.join,
+.missed {
+    position: absolute;
+    color: rgb(93, 108, 116);
+    padding-left: 70px;
+    font-size: 20px;
+    padding-right: 50%;
+}
+
+.join {
+    margin-top:250px ;
+}
+.missed {
+    margin-top:350px
+}
+
+.fullCalendar {
+    margin-top:500px ;
+}
+
+.gettingStarted {
+    margin-top:50px ;
+}
+
+.gettingline1,
+.gettingline2 {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.column1,
+.column2 {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 560px;
+    height: 220px;
+    background-color: rgb(240, 244, 248);
+    margin-left: 70px;
+}
+
+.t1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin:25px ;
+}
+
+.t2 {
+    color: rgb(93, 108, 116);
+    margin:25px;
+    font-size: 20px;   
+}
+
+.t3 {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 560;
+    color: rgb(110, 96, 249);
+    margin:25px;
+}
+
+.recent {
+    margin-top: 70px;   
+}
+
+.column-3 {
+    display: flex;
+}
+
+.col1,
+.col2,
+.col3 {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(240, 244, 248);
+    margin-left: 70px;  
+}
+
+.nt {
+    margin-left: 25px;
+}
+
+.faq {
+
+    background-color: rgb(240, 244, 248);
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 70px;
+    padding-top: 15px;
+    height: 500px;
+}
+
+.qc1 {
+    display: flex;
+    position: relative;
+}
+.q {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 70px;
 }
