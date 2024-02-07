@@ -13,13 +13,15 @@
     width: 100%;
     height: 560px;
 }
-
+#realm_logo2,
 #realm_logo {
     position: absolute;
     top: 55px;
-    left: 170px;
     height: 45px;
 }
+#realm_logo {
+    left: 170px;
+ }
 
 .nav {
     display: flex;
@@ -32,32 +34,46 @@
     position: absolute;
     top: 60px;
     left: 50%;
-    /* Adjusted left value */
     transform: translateX(-50%);
-    /* Center the .nav horizontally */
 }
 
-.buttonOfDeploy1 {
+.buttonOfDeploy1,
+.btn3,
+.btn4 {
+    margin: 0px 12px;
+    padding: 12px;
     display: flex;
     align-items: center;
-    /* Align vertically centered */
     position: absolute;
     font-size: 16px;
-    top: 55px;
     cursor: pointer;
-    margin: 0px 12px;
     font-weight: 550;
-    padding: 12px;
-    right: 75px;
-    height: 45px;
     border-radius: 8px;
     border-color: rgb(110, 96, 249);
     color: white;
     background-color: rgb(110, 96, 249);
 }
 
+.buttonOfDeploy1 {
+    top: 55px;
+    right: 75px;
+    height: 45px;
+
+}
+.btn3 {
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 670px;
+}
+.btn4 {
+    position: absolute;
+    margin-left: 100%;
+}
+
 .buttonOfDeploy1:hover,
-.buttonOfDeploy2:hover {
+.buttonOfDeploy2:hover,
+.btn3:hover,
+.btn4:hover {
     background-color: white;
     color: rgb(110, 96, 249);
 }
@@ -239,6 +255,7 @@
     color: rgb(110, 96, 249);
     padding-left: 70px;
 }
+
 .view {
     margin-top: 35px;
 }
@@ -296,15 +313,16 @@
     font-size: 30px;
     font-weight: 600;
 }
+
 .upcoming {
     margin-top: 150px;
     position: absolute;
-} 
+}
 
 .events img {
     position: absolute;
     margin-top: 50px;
-    margin-left: 50%;    
+    margin-left: 50%;
     border-radius: 25px;
 }
 
@@ -318,18 +336,19 @@
 }
 
 .join {
-    margin-top:250px ;
+    margin-top: 250px;
 }
+
 .missed {
-    margin-top:350px
+    margin-top: 350px
 }
 
 .fullCalendar {
-    margin-top:500px ;
+    margin-top: 500px;
 }
 
 .gettingStarted {
-    margin-top:50px ;
+    margin-top: 50px;
 }
 
 .gettingline1,
@@ -353,13 +372,13 @@
 .t1 {
     font-size: 30px;
     font-weight: 600;
-    margin:25px ;
+    margin: 25px;
 }
 
 .t2 {
     color: rgb(93, 108, 116);
-    margin:25px;
-    font-size: 20px;   
+    margin: 25px;
+    font-size: 20px;
 }
 
 .t3 {
@@ -367,11 +386,11 @@
     font-size: 20px;
     font-weight: 560;
     color: rgb(110, 96, 249);
-    margin:25px;
+    margin: 25px;
 }
 
 .recent {
-    margin-top: 70px;   
+    margin-top: 70px;
 }
 
 .column-3 {
@@ -387,31 +406,189 @@
     width: 350px;
     height: 350px;
     background-color: rgb(240, 244, 248);
-    margin-left: 70px;  
+    margin-left: 70px;
 }
 
 .nt {
     margin-left: 25px;
 }
 
-.faq {
-
+.bgClass3 {
+    position: relative;
+    margin-top: 100px;
+    height: 900px;
     background-color: rgb(240, 244, 248);
-    padding-left: 70px;
+    display: flex;
+}
+
+.faq {
+    position: absolute;
+    margin-left: 70px;
     font-size: 30px;
     font-weight: 600;
-    margin-top: 70px;
-    padding-top: 15px;
-    height: 500px;
+    margin-top: 30px;
 }
 
-.qc1 {
-    display: flex;
-    position: relative;
-}
-.q {
+.qc1,
+.qc2 {
     position: absolute;
     font-size: 18px;
     font-weight: 600;
+}
+
+.qc1 {
+    margin-right: 55%;
     padding-left: 70px;
+}
+
+.qc2 {
+    margin-left: 45%;
+    padding-right: 70px;
+}
+
+.q {
+    padding-top: 60px;
+}
+
+.a {
+    color: rgb(93, 108, 116);
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.blackbox {
+    margin: 10%;
+    position: absolute;
+    margin-top: 600px;
+    width: 80%;
+    height: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blackbox img {
+    width: 100%;
+    height: 120%;
+    display: block;
+}
+
+.boxl1 {
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 630px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.boxl2 {
+    color: rgb(159, 161, 162);
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 700px;
+    font-size: 22px;
+}
+
+#realm_logo2 {
+    left: 120px;
+
+}
+.footer {
+    display: flex;
+    position: relative;
+    background-color: black;
+    height: 800px;
+}
+
+.fc1 p,
+.fc2 p,
+.fc3 p,
+.fc4 p,
+.fc5 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top:65px; 
+    margin-left: 70px;
+}
+.fc1,
+.fc2,
+.fc3,
+.fc4,
+.fc5 {
+    color: rgb(93, 108, 116);
+    font-size: 16px;
+}
+.fc1 {
+    margin-left: 300px;
+}
+
+.f_items {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.blueline1 {
+    position: absolute;
+    color: rgb(110, 96, 249);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 550px;
+}
+
+.blueline2 {
+    position: absolute;
+    color: rgb(110, 96, 249);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 650px;
+}
+
+.stayflex {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 575px;
+    margin-left:120px;
+}
+
+.email input {
+    margin-left:600px;    
+    background-color: white;
+    width: 200px;
+    height:40px;
+    border-radius: 5px;
+}
+
+.btn4 {
+    display: flex;
+}
+
+.belowstay  {
+    position: absolute;
+    margin-top: 625px;
+    margin-left:110px;   
+    color: rgb(93, 108, 116); 
+}
+.endline {
+    display: flex;
+    position: absolute;
+}
+.ec1 {
+    margin-top: 750px;
+    margin-left: 70px;
+    color: rgb(93, 108, 116); 
+}
+.ec2 {
+    margin-top: 750px;
+    color: rgb(93, 108, 116); 
+    display: flex;
+    margin-left: 550px;
+    /* align-items: center; */
+}
+
+.e_items {
+    margin-left: 50px;
+    justify-content: space-around;
 }
